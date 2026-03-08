@@ -1,3 +1,2 @@
-Repositório para conteúdo do curso Programador Low Code
-
-Branchs para cada uma das matérias
+Exercícios do módulo WEB do curso Programador Low Code
+HTML E CSS 
