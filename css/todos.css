@@ -1,0 +1,12 @@
+li {
+    color: navy;
+}
+
+.done {
+    color: dimgray;
+}
+
+#clear {
+    background-color: rgb(181, 17, 17);
+    color: whitesmoke;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+   <!--
+   <style>
+        h1 {
+            background-color: rgb(98, 151, 225);
+            text-align: center;
+        }      
+
+    </style>
+    -->
+</head>
+<body>
+    <h1>Race Registration Form</h1>
+    
+    <br>
+    <form action="">
+        <label for="first-name">First Name:</label>        
+        <input type="text" id="first-name" required>
+        <label for="last-name">Last Name:</label>        
+        <input type="text" id="last-name" required>
+        <br><br>
+        <label for="">Select a race:</label>
+        <br><br>
+        <input type="radio" name="" id="run-5k">        
+        <label for="run-5k">Fun Run 5K</label>
+        <br>
+        <input type="radio" name="" id="half">
+        <label for="half">Half Marathon</label>
+        <br>
+        <input type="radio" name="" id="full">
+        <label for="full">Full Marathon</label>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" required> 
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required> 
+        <br><br>
+        <label for="age-group">Select age group</label> 
+        <select name="under18" id="under18" required>
+            <option value="">Under 18</option>
+            <option value="">18+</option>
+            <option value="">Senior</option>
+            <option value="">Special</option>           
+        </select>
+        <br><br>
+        <button type="submit">LET'S RUN!</button>
+    </form>
+</body>
+</html>
