@@ -1,0 +1,39 @@
+.card {
+    width: 210px;
+    border: solid 1px grey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border: solid 5px rgb(236, 183, 191);
+    border-radius: 50%;
+}
+
+.box {
+    position: relative;;
+    height: 500px;
+    width: 500px;
+    border: solid 2px blue;
+}
+
+.box2 {
+    position: absolute;
+    top: 2rem;
+    left: 5rem;
+    height: 300px;
+    width: 300px;   
+    background-color: rgb(185, 134, 17);
+}
+
+.dog2 {
+    position: sticky;
+    top: 0px;
+    right: 0px ;
+}
+
+.dog3 {
+    display: inline-block;
+}
+

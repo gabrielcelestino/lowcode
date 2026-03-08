@@ -1,0 +1,90 @@
+h1 {
+    color: #008000;
+}
+
+h2 {
+    color: #ff00ff;
+}
+
+p {
+    color: #ffffff;
+    background-color: #000;
+}
+
+button {
+    color: #ff0000;
+    background-color: #ffc0cb;
+}
+
+/* id é # */
+#pangolim-special {
+    color:crimson;
+}
+
+/* classe é . */
+.make-yellow {
+    color: rgb(255, 179, 0);
+}
+
+/* CTRL + ~  para aplicar comments de forma automatica */
+
+div > h2 {
+    color : blueviolet;
+}
+
+nav:hover {
+    background-color: darkorange;
+}
+/* CSS lê de cima para baixo, cascata) */
+nav > a{
+    color: red;
+    color:rgb(220, 47, 236);
+}
+
+#image-box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: darkmagenta;
+    border: solid 5px black;
+    border-radius: 35px;
+    text-align: center;
+}
+
+#presentation-box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(194, 237, 53);
+}
+
+#myh1{
+    background-color: black;
+    text-align: center;
+}
+
+#myh2{
+    background-color: black;
+}
+
+/* MEDIA QUERIES DEVEM VIR SEMPRE NO FINAL DO FICHEIRO */
+
+
+/* Esta é somente para impressao em printer/pdf - neste caso o menu 
+nao sera exibido na impressao */
+@media print {
+    nav {
+        display: none;
+    }
+}
+
+/* somente no modo impressao, esta classe sera impressa com esta cor */
+.make-yellow {
+    color: rebeccapurple;
+}
+
+@media(min-width: 500px){
+    #image-box{
+        background-color: darkgray;
+    }
+}

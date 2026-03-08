@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+  margin: 20px 5px;
+}
+
+#two {
+    position: relative;
+  top: 20px;
+  left: 20px;
+  background: blueviolet;
+}
+
+#five {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  background: yellowgreen;
+}
+
+#eight {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: blueviolet;
+}
